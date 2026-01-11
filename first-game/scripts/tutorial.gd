@@ -40,7 +40,7 @@ func process_current_line():
 	var line = dialog_lines[dialog_index]
 	# var line_info = parse_line(line)
 	var character_name = Character.get_enum_from_string(line["speaker"])
-	dialogue_ui.change_line(character_name, line["text"])
+	dialogue_ui.change_line(line["speaker"], line["text"])
 	# character_sprite.change_character(character_name)
 	# dialogue_ui.speaker_name.text = "speaker_name"
 	# dialogue_ui.dialogue_line.text = "dialogue_line"
