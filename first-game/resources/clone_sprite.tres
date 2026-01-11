@@ -1,0 +1,41 @@
+[gd_resource type="SpriteFrames" load_steps=5 format=3 uid="uid://6x3oqhqc8ndg"]
+
+[ext_resource type="Texture2D" uid="uid://due8g3uac30kl" path="res://assets/CloneBlue.png" id="1_r5nyx"]
+[ext_resource type="Texture2D" uid="uid://dsvb4qib4sxw4" path="res://assets/Clone.png" id="2_jfcld"]
+[ext_resource type="Texture2D" uid="uid://d13ckf6wnmj3k" path="res://assets/CloneGreen.png" id="3_keqhp"]
+[ext_resource type="Texture2D" uid="uid://lf73ao0kd1au" path="res://assets/CloneRed.png" id="4_mqpxo"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_r5nyx")
+}],
+"loop": true,
+"name": &"blue",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_jfcld")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_keqhp")
+}],
+"loop": true,
+"name": &"green",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_mqpxo")
+}],
+"loop": true,
+"name": &"red",
+"speed": 5.0
+}]
