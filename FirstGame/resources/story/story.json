@@ -1,0 +1,12 @@
+[
+	{"speaker": "Employee", "text": "Greetings. This is a training regiment required for your future endeavors"},
+	{"speaker": "Employee", "text": "Please listen carefully."},
+	{"speaker": "Employee", "text": "This is a mannequin."},
+	{"speaker": "Employee", "text": "The default looks a little... bland, don't you think?"},
+	{"speaker": "Employee", "text": "Change the mannequin's shirt to a red one."},
+	{"speaker": "Employee", "text": "Why aren't you choosing the red shirt?"},
+	{"speaker": "Employee", "text": "What? They weren't delivered?"},
+	{"speaker": "Employee", "text": "That's strange."},
+	{"speaker": "Employee", "text": "Well, it seems we will have to postpone this training regiment."},
+	{"speaker": "Employee", "text": "Check back later and we'll see if we have those materials delivered."},
+]

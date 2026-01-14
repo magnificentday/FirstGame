@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://beqfue5qnbebx"]
+
+[ext_resource type="Texture2D" uid="uid://dsvb4qib4sxw4" path="res://assets/Clone.png" id="1_wmkvi"]
+
+[node name="Clone" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_wmkvi")

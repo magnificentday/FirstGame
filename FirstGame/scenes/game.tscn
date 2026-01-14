@@ -1,0 +1,42 @@
+[gd_scene load_steps=5 format=3 uid="uid://5fneicj2w002"]
+
+[ext_resource type="Script" uid="uid://x8shkfetmqe1" path="res://scripts/tutorial.gd" id="1_lbhrr"]
+[ext_resource type="Texture2D" uid="uid://b3ttxej3r8cw6" path="res://assets/Background.png" id="2_lbhrr"]
+[ext_resource type="PackedScene" uid="uid://beqfue5qnbebx" path="res://scenes/clone.tscn" id="2_xwcet"]
+[ext_resource type="PackedScene" uid="uid://chjqtnquulugm" path="res://scenes/dialogue_ui.tscn" id="3_p1ry8"]
+
+[node name="MainScene" type="Node2D"]
+script = ExtResource("1_lbhrr")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = -1
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_lbhrr")
+
+[node name="CanvasLayer2" type="CanvasLayer" parent="."]
+
+[node name="Control" type="Control" parent="CanvasLayer2"]
+layout_mode = 3
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -20.0
+offset_top = -40.0
+offset_right = 20.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="CharacterSprite" parent="CanvasLayer2/Control" instance=ExtResource("2_xwcet")]
+unique_name_in_owner = true
+position = Vector2(24, -282)
+
+[node name="DialogueUI" parent="CanvasLayer2" instance=ExtResource("3_p1ry8")]
+unique_name_in_owner = true
